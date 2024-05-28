@@ -1,0 +1,17 @@
+version: '3.8'
+services:
+  frontend:
+    container_name: slurm-script-gen
+    build: ./frontend
+    # user: "${UID}:${GID}"
+    ports:
+      - 8501:8501
+    environment:
+      - LOCAL_REGISTRY=${LOCAL_REGISTRY}
+      - DEFAULT_PARTITION=${DEFAULT_PARTITION}
+    volumes:
+      - ./frontend:/appfe
+      - /etc/timezone:/etc/timezone:ro
+      - /etc/localtime:/etc/localtime:ro
+    restart: always
+

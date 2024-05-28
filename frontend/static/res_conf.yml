@@ -1,0 +1,15 @@
+slim:
+  cpu: 1
+  mem: 1
+
+small:
+  cpu: 8
+  mem: 10
+
+medium:
+  cpu: 24
+  mem: 50
+
+large:
+  cpu: 56
+  mem: 100

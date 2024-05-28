@@ -1,14 +1,18 @@
 # slurm script generator
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/streamlit/roadmap)
+[![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
 
 This is a simple web application that generates slurm submit scripts based on our infrastructure's naming conventions and workflow. It helps users quickly create job submission scripts without having to manually format the script each time. The app ensures that the generated scripts adhere to our organization's standards, making the job submission process more efficient and consistent.
+
 ## Features
 - Intuitive web interface for easy script generation
 - Automatic formatting based on our infrastructure's naming conventions
 - Supports common slurm directives and options
 - Customizable templates to match our organization's requirements
 - Shareable generated scripts for collaboration and reuse
+
+[demo.webm](https://github.com/tivenide/SlurmScriptGen/assets/110330737/231a5d9f-5c9b-4b66-9000-3ecca5c38a3d)
 
 ## Getting Started
 

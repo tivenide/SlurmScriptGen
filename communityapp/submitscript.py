@@ -39,7 +39,7 @@ with col_a:
     st.write("#### resources config")
     with st.container():
         try:
-            with open("static/res_conf.yml", "r") as file:
+            with open("communityapp/static/res_conf.yml", "r") as file:
                 res_conf = yaml.load(file, Loader=yaml.FullLoader)
         except FileNotFoundError:
             res_conf = {"slim": {"cpu": 1, "mem": 1}}
